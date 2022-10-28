@@ -1,0 +1,86 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%),url("https://external-preview.redd.it/cUPRznS90EDa8g9ceHfg3yBXxwNIV4dgp22qj3gmq3M.jpg?auto=webp&s=b163a56aeb6e6bf07f5bb904cc561de82d646ec6");
+    position: relative;
+    background-size: cover;
+    .top{
+        .wrapper{
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo{
+                height: 40px;
+                cursor: pointer;
+                z-index: 1;
+            }
+
+            .loginButton{
+                background-color: red;
+                border: none;
+                padding: 5px 15px;
+                border-radius: 5px;
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+                z-index: 1;
+            }
+        }
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            margin: 20px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .input{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            justify-content: space-between;
+            margin-top: 20px;
+            height: 50px;
+            border-radius: 5px;
+
+            input{
+                flex: 9;
+                border: none;
+                padding: 0px 10px;
+                height: 100%;
+            }
+
+            .registerButton{
+                flex: 3;
+                border: none;
+                height: 100%;
+                background-color: red;
+                color: white;
+                font-size: 22px;
+                cursor: pointer;
+            }
+        }
+    }
+}
